@@ -15,7 +15,7 @@ import java.util.Map;
  * Created by 201603090214 on 2016/6/23.
  */
 @Controller
-@RequestMapping("/admin" )
+@RequestMapping("/admin")
 public class AdminController {
     @RequestMapping("/manage")
     public String index(Map<String, Object> mo, HttpServletRequest request) {
