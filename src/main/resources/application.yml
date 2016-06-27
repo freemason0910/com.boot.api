@@ -1,0 +1,25 @@
+# main server properties
+server:
+    address: 127.0.0.1
+    port: 8080
+    contextPath: /
+    sessionTimeout: 30
+
+#spring:
+#    profiles: teest
+
+datasource:
+    url: jdbc:mysql://localhost:3306/shopxx
+    username: root
+    password:
+    driverClassName: com.mysql.jdbc.Driver
+    maxActive: 20
+    initialSize: 1
+    maxWait: 1
+    minIdle: 3
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+redis:
+  host: 127.0.0.1
+  port: 6379
+
