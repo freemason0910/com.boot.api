@@ -28,7 +28,7 @@ public class LogInController {
     //登录页面跳转
     @RequestMapping("/main")
     public String login(Map<String, Object> model, HttpServletRequest request) {
-        log.info("\n================》首页《=================\n");
+        log.info("\n================》首页《==   ===============\n");
         model.put("errorflog",false);
         return "views/login/login";
     }
